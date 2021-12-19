@@ -1,0 +1,15 @@
+#output {
+  margin-bottom: 2rem;
+}
+
+#cpu-hand, #you-hand, #cpu-pics, #you-pics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 1rem 1rem 1rem;
+}
+
+#you-pics > *, #cpu-pics > * {
+  max-width: 25vmin;
+  max-height: 25vmin;
+}
