@@ -1,0 +1,52 @@
+<html>
+<head>
+  <title>DragonBallZ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles/index.css" rel="stylesheet">
+  <link href="styles/dbz.css" rel="stylesheet">
+  <script defer src="scripts/dbz.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <button onclick="reset()">reset</button>
+    <br><br>
+    <table>
+      <caption id="output"></caption>
+      <tr>
+        <th></th>
+        <th>you</th>
+        <th>cpu</th>
+      </tr>
+      <tr>
+        <td>loads</td>
+        <td id="your-loads">0</td>
+        <td id="cpu-loads">0</td>
+      </tr>
+      <tr>
+        <td>point</td>
+        <td id="your-points">0</td>
+        <td id="cpu-points">0</td>
+      </tr>
+    </table>
+    <form>
+      <input id="input" placeholder="enter" required>
+      <button type="submit">Go</button>
+    </form>
+    <br>
+    <div id="help">
+      <ul>
+        <li>Load: +</li>
+        <li>✌️️esc: 1</li>
+        <li>👈esc: 2</li>
+        <li>👍esc: 3</li>
+        <li>Fire(1): fi</li>
+        <li>Shield(2): sh</li>
+        <li>Normal(3): no</li>
+        <li>Superstrong(3): ss</li>
+        <li>SideSlash(4): ssl</li>
+        <li>BangBang(5): bb</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

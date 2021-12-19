@@ -1,0 +1,21 @@
+<html>
+<head>
+  <title>Roll</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles/index.css" rel="stylesheet">
+  <link href="styles/roll.css" rel="stylesheet">
+  <script defer src="scripts/roll.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <div>
+      <button onclick="dice()">dice</button>
+      <button onclick="coin()">coin</button>
+      <button onclick="cards()">cards</button>
+      <input id="number-input" placeholder="end (def:100) | start,end" type="text"></input>
+      <button onclick="number()">number</button>
+    </div>
+    <p id="output"></p>
+  </div>
+</body>
+</html>

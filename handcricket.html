@@ -1,0 +1,41 @@
+<html>
+<head>
+  <title>Cricket</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles/index.css" rel="stylesheet">
+  <link href="styles/handcricket.css" rel="stylesheet">
+  <script defer src="scripts/handcricket.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <button onclick="reset()">start</button>
+    <p id="output"></p>
+    
+    <div id="info">
+      <span>
+        <b>Innings:</b> <innings>1</innings>
+      </span>
+      <span>
+        <b>Target:</b> <target>n/a</target>
+      </span>
+      <span>
+        <b>Score:</b> <score>00/0 (0.0)</score>
+      </span>
+      <span>
+        <b>W Left:</b> <wickets>0</wickets>
+      </span>
+      <span>
+        <b>Batsman:</b> <batsman>n/a</batsman>
+      </span>
+      <span>
+        <b>Bowler:</b> <bowler>n/a</bowler>
+      </span>
+    </div>
+    
+    <form>
+      <input id="input" type="number" placeholder="enter a num" required>
+      <button>go</button>
+    </form>
+  </div>
+</body>
+</html>

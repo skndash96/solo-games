@@ -1,0 +1,41 @@
+<html>
+<head>
+  <title>Joystick</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles/index.css" rel="stylesheet">
+  <link href="styles/joystick.css" rel="stylesheet">
+  <script defer src="scripts/joystick.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <button onclick="reset()">start</button>
+    <p id="output"></p>
+    
+    <div>
+      <span id="info">CPU hand:</span>
+      <div id="cpu-hand">
+        <span id="cpu-left">|</span>
+        <span id="cpu-right">|</span>
+      </div>
+      <div id="cpu-pics">
+        <img id="cpu-pic-left" src="https://i.postimg.cc/WpnghkXq/c1.png">
+        <img id="cpu-pic-right" src="https://i.postimg.cc/WpnghkXq/c1.png">
+      </div>
+    </div>
+    <div>
+      <span id="info">YOUR hand:</span>
+      <button id="hand-split">split/combine</button>
+      <div id="you-hand">
+        <span id="you-left">|</span>
+        <span id="you-right">|</span>
+      </div>
+      <div id="you-pics">
+        <img id="you-pic-left" src="https://i.postimg.cc/90J7S6rY/y1.png">
+        <img id="you-pic-right" src="https://i.postimg.cc/90J7S6rY/y1.png">
+      </div>
+      chosen hand to hit: <b id="hand-change">left</b>, <code>tap bold text change.</code>
+    </div>
+    
+  </div>
+</body>
+</html>
